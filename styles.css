@@ -1,0 +1,170 @@
+html {
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  background-image: url("images/wallpaper.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+  resize: both;
+}
+.top-container
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.name
+{
+  margin: 10px;
+  margin-left: 32px;
+}
+
+.links-container
+{
+  width: 175px;
+  margin: 10px;
+  margin-right: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+#ig:hover, #li:hover, #gh:hover 
+{
+  filter:invert(1);
+}
+
+.main-container
+{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.dropdown-menu
+{
+  margin-left: 32px;
+}
+
+#pfp
+{
+  border: 8px solid rgb(98, 252, 188);
+  border-radius: 50%;
+}
+
+.dropdown-menu-item-title {
+    font-size: 32px;
+    padding: 9px;
+    margin-top: .16px;
+    display: inline-block;
+  }
+  
+  .dropdown-menu-item-title:hover {
+    color:gray;
+  }
+  
+  .dropdown-menu-item-data {
+    margin: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-out;
+  }
+  
+  .dropdown-menu-item-data.hide {
+    height: 0;
+  }
+  
+  .dropdown-menu-item-data.show {
+    height: var(--openHeight);
+  }
+
+  .dropdown-menu-item-title:hover .dropdown-submenu
+  {
+    display: block;
+  }
+  
+  .dropdown-submenu {
+    padding: 0;
+    width: 50vw;
+    font-size: 20px;
+  }
+  
+  .dropdown-submenu-item {
+    padding: 8px;
+  }
+
+  .skills-menu
+  {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px solid mediumspringgreen;
+    display: block;
+    align-items: center;
+    flex-direction: column;
+  }
+  .frontend-skills
+  {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .backend-skills
+  {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  /*Mobile appearance*/
+  @media (max-width: 800px)
+  {
+    body
+    {
+      background-image: url("images/mobile.png");
+    }
+    .top-container
+    {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+    .main-container
+    {
+      display: flex;
+      align-items:center;
+      flex-wrap: wrap;
+    }
+    .icon
+  {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+  .dropdown-menu
+{
+  display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center;
+}
+.dropdown-submenu {
+  padding: 0;
+  width: 70vw;
+  font-size: 20px;
+}
+.details{
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+}
+
+
