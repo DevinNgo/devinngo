@@ -4,6 +4,5 @@ devinngo03@gmail.com
 
 Languages used: HTML, CSS, JavaScript
 
-Websites where I learned:
-https://developer.mozilla.org/en-US/
-https://www.w3schools.com/
+Access my website:
+https://devinngo.github.io/devinngo/
